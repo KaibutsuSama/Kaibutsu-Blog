@@ -15,6 +15,10 @@ module.exports = {
                     {
                         text: "基础知识",
                         children: ['/java/base/Annotation.md',]
+                    },
+                    {
+                        text: "开发经验",
+                        children: ['/java/developmentexp/CrudExp.md']
                     }
                 ],
             },

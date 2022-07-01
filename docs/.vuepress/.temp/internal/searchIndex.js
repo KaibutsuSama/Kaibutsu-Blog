@@ -83,6 +83,33 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Crud的一些经验",
+    "headers": [
+      {
+        "level": 2,
+        "title": "GlobalExceptionHandler",
+        "slug": "globalexceptionhandler",
+        "children": [
+          {
+            "level": 3,
+            "title": "问题/示例",
+            "slug": "问题-示例",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解决/代码",
+            "slug": "解决-代码",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/Java/Developmentexp/CrudExp.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",

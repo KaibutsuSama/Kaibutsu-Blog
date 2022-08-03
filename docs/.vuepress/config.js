@@ -14,7 +14,9 @@ module.exports = {
                 children: [
                     {
                         text: "基础知识",
-                        children: ['/java/base/Annotation.md',]
+                        children: [
+                        '/java/base/Annotation.md',
+                        '/java/base/IdeaHotKey.md']
                     },
                     {
                         text: "开发经验",

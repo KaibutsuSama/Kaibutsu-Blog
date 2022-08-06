@@ -15,12 +15,11 @@ jobs:
       - name: Install and Build 🔧
         run: |
             npm install yarn
-            yarn
-            yarn docs:build
+            npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ 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 }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Github会自动提供
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
           CLEAN: true

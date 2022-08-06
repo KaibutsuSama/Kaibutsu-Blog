@@ -23,5 +23,3 @@ jobs:
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
           CLEAN: true
-
-    

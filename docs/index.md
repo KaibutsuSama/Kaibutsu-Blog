@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: Kaibutsu's blog
-# pageClass: vdoing-index-class
+pageClass: vdoing-index-class
 tagline: 但行前路，不负韶华！
 # actionText: 立刻进入 →
 # actionLink: /web/

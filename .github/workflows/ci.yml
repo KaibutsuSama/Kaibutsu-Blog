@@ -20,7 +20,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ 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 }}
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
           CLEAN: true

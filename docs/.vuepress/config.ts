@@ -59,7 +59,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       bgTimeColor: false,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
       bgTimeColorArray: ['transparent', 'rgba(255, 148, 48, .2)', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
       descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-      desc: ["Java > All", "PHP is the best language for web programming, but what about other languages", "You love Cpp? Nope! you love Challenge plus plus!"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
+      desc: ["Allocate four digits for the year part of a date: a new millennium is commg.—— David Martin",'If the code and the comments disagree, then both are probably wrong. —— Norm Schryer,'],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
       descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
       descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
       descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
@@ -71,7 +71,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
 
     bodyBgImg: [
-      'https://s3.bmp.ovh/imgs/2022/08/05/590d77fa925c78b5.gif',
+      'https://s3.bmp.ovh/imgs/2022/08/07/36b17e4f8eaf09b2.jpg',
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
@@ -80,7 +80,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       '图标地址1',
       '图标地址2'
     ],
-    contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    // contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     updateBar: { // 最近更新栏
       showToArticle: false, // 显示到文章页底部，默认true
@@ -91,7 +91,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
     // 默认外观模式（用户未在页面手动修改过模式时才生效，否则以用户设置的模式为准），可选：'auto' | 'light' | 'dark' | 'read'，默认'auto'。
-    // defaultMode: 'auto',
+    defaultMode: 'dark',
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring',

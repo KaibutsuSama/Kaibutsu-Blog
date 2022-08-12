@@ -1,15 +1,18 @@
 // @ts-ignore
-import programinglanguageNav from '../nav/programminglanguageNav'
+import record from '../nav/recordNav'
 // @ts-ignore
 import databaseNav from '../nav/databaseNav'
-
+import toolsNav
+ from '../nav/toolsNav'
 export default [
     {
         text: '首页',link: '/'
     },
 
-    programinglanguageNav, //编程语言
+    record, //开发小记
 
     databaseNav,//数据库
+
+    toolsNav,//工具
 
 ]

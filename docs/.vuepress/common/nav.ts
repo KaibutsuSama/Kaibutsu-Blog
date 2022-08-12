@@ -2,8 +2,7 @@
 import record from '../nav/recordNav'
 // @ts-ignore
 import databaseNav from '../nav/databaseNav'
-import toolsNav
- from '../nav/toolsNav'
+import toolsNav from '../nav/toolsNav'
 export default [
     {
         text: '首页',link: '/'

@@ -1,8 +1,8 @@
 module.exports = {
-    text: '⚡ASN114', link: '/tools/',
+    text: '⚡工具', link: '/tools/',
         items: [
             {
-            text: 'Chinese Exclusion Act',
+            text: '部署',
             items: [
                 { text: 'Linux', link: '/linux/'},
             ],

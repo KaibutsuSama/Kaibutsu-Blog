@@ -20,7 +20,7 @@ export default  <VdoingThemeConfig> {
     editLinkText: '编辑',
 
     category: false, // 是否打开分类功能，默认true
-    tag: false, // 是否打开标签功能，默认true
+    tag: true, // 是否打开标签功能，默认true
     archive: false, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
@@ -33,7 +33,7 @@ export default  <VdoingThemeConfig> {
         bgTimeColor: false,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
         bgTimeColorArray: ['transparent', 'rgba(255, 148, 48, .2)', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
         descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-        desc: ["Create By XinLeroy Liu"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
+        desc: ["你所热爱的，就是你的生活"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
         descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
         descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
         descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
@@ -45,9 +45,7 @@ export default  <VdoingThemeConfig> {
 
 
     bodyBgImg: [
-        // 'https://s3.bmp.ovh/imgs/2022/09/12/0972d3c296f23225.jpg',
-        'https://pic1.zhimg.com/v2-ccae9dbd00ebcc54d281bbd238df982a_1440w.jpg?source=172ae18b',
-        // 'https://img-baofun.zhhainiao.com/fs/c80f922628e1baca2ce1a003289b091a.jpg',
+        'https://img-baofun.zhhainiao.com/fs/c80f922628e1baca2ce1a003289b091a.jpg',
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
@@ -80,8 +78,8 @@ export default  <VdoingThemeConfig> {
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-        avatar: 'https://avatars.githubusercontent.com/u/108192901?s=400&u=627c1aa6cccc15f2c49a09e323482b4bd6a5c24d&v=4',
-        name: 'XinLeroy Liu',
+        avatar: 'https://avatars.githubusercontent.com/u/108192901?s=400&u=b4cb0547bdb05ddf264adebf0027a7ad92a449e0&v=4',
+        name: 'KaibutsuSama',
         // slogan: '签名',
     },
 

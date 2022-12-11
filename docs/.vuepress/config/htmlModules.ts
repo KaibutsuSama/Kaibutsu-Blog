@@ -20,27 +20,27 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
  * ②注：windowLB 和 windowRB：1.展示区块最大宽高200px*400px。2.请给自定义元素定一个不超过200px*400px的宽高。3.在屏幕宽度小于960px时无论如何都不会显示。
  */
 const htmlModule: VdoingThemeConfig['htmlModules'] = {
-  // homeSidebarB:
-  //     `<div style="padding: 0.95rem">
-  //   <p style="
-  //     color: var(--textColor);
-  //     opacity: 0.9;
-  //     font-size: 20px;
-  //     font-weight: bold;
-  //     margin: 0 0 8px 0;
-  //   ">小记</p>
-  //   </p>
-  //   醉后不知天在水，</br>满船清梦压星河。
-  //   </p>
-  //   </p>
-  //   总是平生未行处，</br>醉来堪赏醒堪愁。
-  //   </p>
-  //   桃李春风一杯酒，</br>江湖夜雨十年灯。
-  //   </p>
-  //   秋阴不散霜飞晚，</br>留得枯荷听雨声。
-  //   </p>
-  //   天不老，情难绝，</br>心似双丝网，中有千千结。
-  //   </div>`,
+  homeSidebarB:
+      `<div style="padding: 0.95rem">
+    <p style="
+      color: var(--textColor);
+      opacity: 0.9;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 8px 0;
+    ">小记</p>
+    </p>
+    醉后不知天在水，</br>满船清梦压星河。
+    </p>
+    </p>
+    总是平生未行处，</br>醉来堪赏醒堪愁。
+    </p>
+    桃李春风一杯酒，</br>江湖夜雨十年灯。
+    </p>
+    秋阴不散霜飞晚，</br>留得枯荷听雨声。
+    </p>
+    天不老，情难绝，</br>心似双丝网，中有千千结。
+    </div>`,
 
   // sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
   // sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,

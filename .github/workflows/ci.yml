@@ -12,10 +12,11 @@ jobs:
         with:
           persist-credentials: false
       - name: use node
-        uses: actions/setup-node@v2
-          with:
+        uses: actions/checkout@v2.3.1
+        with:
             node-version: 16
             cache: "npm"
+
       - name: Install and Build 🔧
         run: |
             npm install yarn

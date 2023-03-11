@@ -1,5 +1,5 @@
 module.exports = {
-    text: '🔒数据库',link: '/database/',
+    text: '数据库',link: '/database/',
     items: [
 
         {

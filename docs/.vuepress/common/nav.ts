@@ -1,11 +1,13 @@
 // @ts-ignore
-import blogNav from '../nav/blogNav'
+import moodNav from '../nav/moodNav'
 
 export default [
     {
         text: '首页',link: '/'
     },
+    
+    moodNav,
 
-    blogNav,// 心情小记
+
 
 ]

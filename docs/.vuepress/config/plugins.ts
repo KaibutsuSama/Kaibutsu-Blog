@@ -66,8 +66,8 @@ export default <UserPlugins> [
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+          clientID: '5d0feaac429beb0f6465',
+          clientSecret: '938d87bd7f32b7b96cca24cceab738532493f49d',
           repo: 'Kaibutsu-Blog', // GitHub 仓库
           owner: 'KaibutsuSama', // GitHub仓库所有者
           admin: ['KaibutsuSama'], // 对仓库有写权限的人

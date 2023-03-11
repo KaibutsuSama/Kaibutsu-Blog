@@ -41,7 +41,7 @@ tagline: 但行前路，不负韶华！
 
 postList: detailed
 ---
-<h1 align="center">
+<!-- <h1 align="center">
 
 Welcome to KaibitsuSama's blog!🌟
 
@@ -67,4 +67,4 @@ Framework and Tools
 
 <ClientOnly>
   <IndexBigImg />
-</ClientOnly>
+</ClientOnly> -->

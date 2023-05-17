@@ -6,6 +6,6 @@ export default [
         text: '首页',link: '/'
     },
 
-    blogNav,// 心情小记
+    blogNav,// 生活小记
 
 ]

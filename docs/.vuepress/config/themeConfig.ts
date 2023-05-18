@@ -45,7 +45,7 @@ export default  <VdoingThemeConfig> {
 
 
     bodyBgImg: [
-        'https://images2.alphacoders.com/598/598673.jpg',
+        'https://images.wallpaperscraft.com/image/single/room_book_read_92289_1280x720.jpg',
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 1.0, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s

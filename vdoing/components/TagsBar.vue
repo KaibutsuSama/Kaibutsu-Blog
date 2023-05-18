@@ -4,7 +4,7 @@
       to="/tags/"
       class="title iconfont icon-biaoqian1"
       title="全部标签"
-    >{{ length === 'all' ? '全部标签' : '热门标签' }}</router-link>
+    >{{ length === 'all' ? '全部标签' : '故事栏' }}</router-link>
     <div class="tags">
       <template v-for="(item, index) in tags">
         <router-link

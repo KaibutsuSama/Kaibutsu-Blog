@@ -25,7 +25,7 @@
         <dd></dd>
         <dt>
           <router-link :to="moreArticle || '/archives/'" class="more"
-            >更多文章></router-link
+            >更多小记></router-link
           >
         </dt>
       </dl>

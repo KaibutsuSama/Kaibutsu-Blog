@@ -21,7 +21,7 @@ export default  <VdoingThemeConfig> {
 
     category: false, // 是否打开分类功能，默认true
     tag: true, // 是否打开标签功能，默认true
-    archive: false, // 是否打开归档功能，默认true
+    archive: true, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
@@ -57,7 +57,7 @@ export default  <VdoingThemeConfig> {
     // contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     updateBar: { // 最近更新栏
-        showToArticle: false, // 显示到文章页底部，默认true
+        showToArticle: true, // 显示到文章页底部，默认true
         // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
     // rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
